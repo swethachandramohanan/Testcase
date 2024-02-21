@@ -1,0 +1,52 @@
+@mixin mobile{
+    
+    @media (max-width: 600px) {
+        .container-fluid {
+          max-width: 600px;
+        }
+
+      
+            .container.section2 .row {
+              flex-direction: column;
+            }
+          
+            .container.section2 .row > div {
+              width: 100%;
+              padding: 0 15px;
+              box-sizing: border-box;
+              text-align: center;
+            }
+          
+            .container.section2 .row > div .center {
+              text-align: center;
+            }
+          
+            .container.section2 .row > div .right {
+              margin: 0 auto;
+            }
+          
+            .container.section2 .row > div video {
+              width: 100%;
+              max-width: 100%;
+              height: auto;
+            }
+          
+         
+                .container-fluid.section1 .col-lg-12 {
+                  text-align: center;
+                  width: 100%;
+                  max-width: 100%;
+                }
+                footer .footer1 .row {
+                    flex-direction: column;
+                    text-align: center;
+                  }
+                
+                  footer .container .row > div {
+                    width: 100%;
+                    margin-bottom: 20px;
+                  }
+              
+      }
+      
+}
